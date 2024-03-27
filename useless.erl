@@ -13,6 +13,7 @@ greet_and_add_two(x) ->
 
     % This is a comment.
     % A function macro can be written for example as: `-define(add(X, Y), X+Y).` and used as `?add(66, 99)`.
-    % "A 'function' macro could be written as -define(sub(X,Y), X-Y). and used like ?sub(23,47), 
-    % later replaced by 23-47 by the compiler. Some people will use more complex macros, but the basic syntax stays the same." 
-    % ref [for code and details listed in comments] =(https://learnyousomeerlang.com/modules, 5).
+    % "Erlang code is compiled to bytecode in order to be used by the virtual machine. You can call the compiler
+    % from many places: $ erlc flags file.erl when in the command line, compile:file(FileName) when in the shell
+    % or in a module, c() when in the shell, etc." 
+    % Ref for code and details listed in comments -> (https://learnyousomeerlang.com/modules, 5).
