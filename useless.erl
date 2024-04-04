@@ -7,11 +7,12 @@ add(A, B) ->
 hello_world() ->
     io:format("Hello World!~n").
 
-greet_and_add_two(x) ->
+greet_and_add_two(X) ->
     hello_world(),
-    add(x, 2).
+    add(X, 2).
 
     % This is a comment.
+    % REMEMBER to use uppercase letters for variables!
     % A function macro can be written for example as: `-define(add(X, Y), X+Y).` and used as `?add(66, 99)`.
     % "Erlang code is compiled to bytecode in order to be used by the virtual machine. You can call the compiler
     % from many places: $ erlc flags file.erl when in the command line, compile:file(FileName) when in the shell
